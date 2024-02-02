@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+header{
+    border: 3px solid #333;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+header h1{
+    text-shadow: red 3px 3px;
+    font-size: 50px;
+}
+header p{
+    letter-spacing: 10px;
+}
+hr{
+    margin: 0px 30px;
+}
+section{
+    margin: 50px 20px 50px 20px;
+}
+main{
+    margin: 0px 20px;
+}
+.sections{
+    margin: 0px 20px;
+}
+main h2{
+    margin: 30px 20px 0px 20px;
+}
+main h2::first-letter{
+    color: red;
+    font-size: larger;
+}
+main p{
+    margin: 5px 0px 30px 35px;
+    color: #bbb;
+}
+.inline-hr{
+    display: none;
+}
+footer{
+    background-color: #222;
+    padding: 30px;
+}
+footer p{
+    float: right;
+    margin-left: 30px;
+}
+footer h2,footer p{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+a:hover{
+    color: #bbb;
+}
